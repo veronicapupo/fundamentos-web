@@ -9,7 +9,7 @@ paoJson.map((item, index) => {
    document.querySelector('.pao-area').append(paoItem)
 
    paoItem.querySelector('.pao-item--img img').src = item.img
-   paoItem.querySelector('.pao-item--price').innerHTML = 'R$ ${item.price.toFixed(2)}'
+   paoItem.querySelector('.pao-item--price').innerHTML = item.price
    paoItem.querySelector('.pao-item--name').innerHTML = item.name
    paoItem.querySelector('.pao-item--desc').innerHTML = item.description
 
