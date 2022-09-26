@@ -11,8 +11,17 @@
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 
+}
+.containerContato{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.formularioContato{
+    font-family:'Hepta Slab', Helvetica, Arial;
 }
 .containerVideos{
     padding-top: 15px;
@@ -41,6 +50,10 @@
 
 .p-15 {
     padding: 15px;
+}
+
+.p-20px{
+    padding: 20px;
 }
 
 .br-50 {
@@ -170,7 +183,7 @@ h1, h2 {
     width:200px;
     height:200px;
     background-color:#EEE;
-    border-radius:100px;
+    border-radius: 50%;
     box-shadow:0px 10px 50px rgba(0, 0, 0, 0.2);
 }
 
